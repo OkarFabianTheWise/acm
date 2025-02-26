@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import WalletContextProvider from "./components/WalletConnect";
 
 const App: React.FC = () => {
   return (
